@@ -1,0 +1,192 @@
+.fixar {
+    position:fixed;
+    margin-top: 0px !important;
+}
+
+#inst:hover, #blog:hover, #cont:hover, #mapa:hover{
+    color: #ffc700;
+}
+
+#inst, #blog, #cont, #mapa{
+    color: #fff;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: #DBBC09;
+}
+
+#login{
+    cursor: pointer;
+    background-color: #ffc700; 
+    color: #000;
+}
+
+@media (max-width: 991px)
+{
+  #login
+   {
+    color: #fff;
+    margin-right: 4vh;
+    margin-left: 5vh;
+    padding-left: -20px;
+    background-color: #000;
+   }
+
+   #login:hover
+   {
+    background-color: #000;
+   }
+}
+
+#saibainst:hover, #enviarmsg:hover{
+    background-color: #DBBC09!important;
+}
+
+#saibablog:hover{
+    background-color: #DBBC09!important;
+}
+
+.botao{
+    margin: auto
+}
+
+#saibamapa:hover{
+    background-color: #DBBC09!important;
+}
+
+#barra{
+    color: #fff!important;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+@media (max-width: 1399px){
+    #row1{
+        justify-content: center;
+    }
+}
+
+#home:hover{
+    color: #ffc700!important;
+}
+
+#inicio {
+    background-image: url("img/estrada.jpg");
+}
+
+@media (max-width: 760px){
+    #carros{
+        height: 70vh!important;
+    }
+}
+
+@media (max-width: 575px){
+    #carros{
+        height: 50vh!important;
+    }
+}
+
+@media (max-width: 460px){
+    #carros{
+        height: 30vh!important;
+    }
+}
+
+@media (max-width: 760px){
+    #carousel{
+        height: 70vh!important;
+    }
+}
+
+@media (max-width: 575px){
+    #carousel{
+        height: 50vh!important;
+    }
+}
+
+@media (max-width: 460px){
+    #carousel{
+        height: 30vh!important;
+    }
+}
+
+@media (max-width: 991px){
+    #form-container{
+        width: 50vw!important;
+        padding-left: 7vw!important;
+        padding-right: 7vw!important;
+    }
+}
+
+@media (max-width: 560px){
+    #form-container{
+        width: 70vw!important;
+    }
+}
+
+@media (max-width: 450px){
+    #form-container{
+        width: 80vw!important;
+        padding-left: 8vw!important;
+        padding-right: 8vw!important;
+    }
+}
+
+@media (max-width: 330px){
+    #form-container{
+        width: 90vw!important;
+        padding-left: 9vw!important;
+        padding-right: 9vw!important;
+    }
+}
+
+@media (max-width: 260px){
+    #form-container{
+        width: 90vw!important;
+        padding-left: 10vw!important;
+        padding-right: 10vw!important;
+    }
+}
+
+.input:focus{
+    outline-color: #ffc700!important;
+}
+
+@media (max-width: 300px){
+    #enderecoemail, #numerotel, #zap{
+        font-size: 14px!important;
+    }
+}
+
+@media (max-width: 250px){
+    #enderecoemail, #numerotel, #zap{
+        font-size: 12px!important;
+    }
+}
+
+@media (max-width: 210px){
+    #enderecoemail, #numerotel, #zap{
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width: 991px){        
+    #coluna{
+       display: none;
+    }
+}
+
+@media (max-width: 768px){
+    #menubotao{
+        width: 1vw!important;
+    }
+}
+
+@media (max-width: 875px){
+    #tabela{
+        width: 60vw!important;
+    }
+}
